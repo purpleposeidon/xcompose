@@ -1,30 +1,45 @@
 # Neptune's APL stuff.
 
+# Comments
 <Multi_key> <N> <b> : "⍝"
 <Multi_key> <n> <B> : "⍝"
 <Multi_key> <n> <b> : "⍝"
+
+# Negative
 <Multi_key> <6> <minus> : "¯"
+# Multiply
+<Multi_key> <x> <x> : "×"
+# Divide
+<Multi_key> <colon> <minus> : "÷"
+<Multi_key> <minus> <colon> : "÷"
+
+# Reflections
 <Multi_key> <parenleft> <minus> <parenright> : "⊖"
 <Multi_key> <parenleft> <bar> <parenright> : "⌽"
 <Multi_key> <parenleft> <backslash> <parenright> : "⍉"
-<Multi_key> <colon> <asciitilde> : "⍨"
+
+# Floor & Ceiling
 <Multi_key> <bar> <asciicircum> : "⌈"
 <Multi_key> <bar> <underscore> : "⌊"
+
+<Multi_key> <colon> <asciitilde> : "⍨"
 <Multi_key> <asterisk>i : "ι"
 <Multi_key> <asciicircum> <asterisk> : "⋆"
-<Multi_key> <x> <x> : "×"
-<Multi_key> <colon> <minus> : "÷"
-<Multi_key> <minus> <colon> : "÷"
 <Multi_key> <bracketleft> <colon> <minus> <bracketright> : "⌹"
 <Multi_key> <bracketleft> <minus> <colon> <bracketright> : "⌹"
+
+# Pi
 <Multi_key> <O> <O> : "○"
+
+# Logarithm
 <Multi_key> <parenleft> <asterisk> <parenright> : "⍟"
+
 <Multi_key> <asciicircum> <underscore> <bar> : "⍋"
 <Multi_key> <v> <underscore> <bar> : "⍒"
 <Multi_key> <asciicircum> <exclam> : "⍎"
-<Multi_key> <underscore> <exclam> : "⍕"
+
+# Comparison/Logic
 <Multi_key> <i> <n> : "∈"
-<Multi_key> <bar> <plus> : "⊥"
 <Multi_key> <plus> <bar> : "⊤"
 <Multi_key> <less> <equal> : "≤"
 <Multi_key> <greater> <equal> : "≥"
@@ -33,6 +48,10 @@
 <Multi_key> <backslash> <slash> : "∨"
 <Multi_key> <backslash> <minus> <slash> : "⍱"
 <Multi_key> <slash> <minus> <backslash> : "⍲"
+
+
+<Multi_key> <underscore> <exclam> : "⍕"
+<Multi_key> <bar> <plus> : "⊥"
 <Multi_key> <minus> <slash> : "⌿"
 <Multi_key> <minus> <backslash> : "⍀"
 <Multi_key> <minus> <period> : "."

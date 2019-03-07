@@ -1,17 +1,28 @@
 # Neptune's APL stuff.
 
-# Comments
+# Comment marker. Acts the same as '#'.
 <Multi_key> <N> <b> : "⍝"
 <Multi_key> <n> <B> : "⍝"
 <Multi_key> <n> <b> : "⍝"
 
-# Negative
+# Negate numeric literal.
 <Multi_key> <6> <minus> : "¯"
 # Multiply
 <Multi_key> <x> <x> : "×"
 # Divide
 <Multi_key> <colon> <minus> : "÷"
 <Multi_key> <minus> <colon> : "÷"
+
+# Comparison/Logic
+<Multi_key> <i> <n> : "∈"
+<Multi_key> <plus> <bar> : "⊤"
+<Multi_key> <less> <equal> : "≤"
+<Multi_key> <greater> <equal> : "≥"
+<Multi_key> <exclam> <equal> : "≠"
+<Multi_key> <slash> <backslash> : "∧"
+<Multi_key> <backslash> <slash> : "∨"
+<Multi_key> <backslash> <minus> <slash> : "⍱"
+<Multi_key> <slash> <minus> <backslash> : "⍲"
 
 # Reflections
 <Multi_key> <parenleft> <minus> <parenright> : "⊖"
@@ -37,17 +48,6 @@
 <Multi_key> <asciicircum> <underscore> <bar> : "⍋"
 <Multi_key> <v> <underscore> <bar> : "⍒"
 <Multi_key> <asciicircum> <exclam> : "⍎"
-
-# Comparison/Logic
-<Multi_key> <i> <n> : "∈"
-<Multi_key> <plus> <bar> : "⊤"
-<Multi_key> <less> <equal> : "≤"
-<Multi_key> <greater> <equal> : "≥"
-<Multi_key> <exclam> <equal> : "≠"
-<Multi_key> <slash> <backslash> : "∧"
-<Multi_key> <backslash> <slash> : "∨"
-<Multi_key> <backslash> <minus> <slash> : "⍱"
-<Multi_key> <slash> <minus> <backslash> : "⍲"
 
 
 <Multi_key> <underscore> <exclam> : "⍕"

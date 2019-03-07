@@ -1,5 +1,4 @@
 # for Emacs: -*- coding: utf-8 -*-
-include "%L"
 
 # def emit(keys, codepoint, word):
 #     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 

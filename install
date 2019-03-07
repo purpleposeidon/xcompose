@@ -12,4 +12,10 @@ Kragen Javier Sitaker <kragen@canonical.org>
 EOF
 	exit 1
 fi
-ln -s "$(pwd)/dotXCompose" ~/.XCompose
+(
+	echo 'include "%L"'
+	for x in dotXCompose $@
+	do
+		echo "include \"$(realpath ./$x)\""
+	done
+) > ~/.XCompose

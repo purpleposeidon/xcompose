@@ -12,9 +12,11 @@ Kragen Javier Sitaker <kragen@canonical.org>
 EOF
 	exit 1
 fi
+personal=~/.config/XCompose
+touch $personal
 (
 	echo 'include "%L"'
-	for x in dotXCompose $@
+	for x in dotXCompose $@ $personal
 	do
 		echo "include \"$(realpath ./$x)\""
 	done

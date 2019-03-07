@@ -22,6 +22,7 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '`' => 'grave',
 	     '~' => 'asciitilde',
 	     '^' => 'asciicircum',
+	     '&' => 'ampersand',
 	     '(' => 'parenleft',
 	     ')' => 'parenright',
 	     '[' => 'bracketleft',
